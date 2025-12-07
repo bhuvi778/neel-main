@@ -43,7 +43,7 @@ function Hero() {
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/70 flex items-center">
             <div className="container mx-auto px-4">
               {index === currentSlide && (
-                <div key={animationKey} className="max-w-3xl text-white bg-black/20 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+                <div key={animationKey} className="max-w-3xl text-white p-8">
                   <h6 className="text-secondary text-2xl mb-4 animate__animated animate__fadeInUp" style={{ animationDelay: '0.1s' }}>
                     {slide.subtitle}
                   </h6>
